@@ -4,11 +4,12 @@
 	<script src="js/dist/html5shiv.js"></script>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style/main.css">
-	<title>Administracion</title>
+	<title><?= $titulo?></title>
 </head>
 <body>
 	<header>
 		<h1 id="banner">Bienvenido</h1>
+		<?= $lenguaje; ?>
 	</header>
 	<section>
 	   <form  id="frm-login" method="POST" action="auth.php">
