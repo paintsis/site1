@@ -1,3 +1,6 @@
+<?php
+$token = sha1(rand(0,999).rand(999,9999).rand(1,300));
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,19 +12,19 @@
 <body>
 	<header>
 		<h1 id="banner">Bienvenido</h1>
-		<?= $lenguaje; ?>
 	</header>
 	<section>
 	   <form  id="frm-login" method="POST" action="auth.php">
-		<label for="Login" class="frm-space">Usuario</label>
+		<label for="Login" class="frm-space"><strong>Usuario </strong> </label>
 			<br>
 			<input type="text" class="frm-space" required placeholder="Usuario" title="Ingrese su usuario"  name="user">
 			<br>
-		<label for="pwd" class="frm-space">Contraseña</label>
+		<label for="pwd" class="frm-space"><strong>Contraseña</strong></label>
 			<br>
 			<input type="password" class="frm-space" required placeholder="Contraseña"  name="pwd">
 			<br>
 			<input type="submit" value="Aceptar" id="button">
+			<input type="hidden" value = "<?= $token;?>" name="token">
 		</form>
 
 	</section>

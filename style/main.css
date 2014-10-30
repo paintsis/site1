@@ -11,23 +11,40 @@ body{
 	padding-top: 0.4em;
 	text-align: center;
 	color: white;
-	/*color: rgba(255, 255, 255, 0.95);*/
+	margin: 0 auto;
 }
 
-#frm-login{ width: 440px; padding-left: 3em;background: #f4f4f4; color: #494d59; height: 12em;
-		margin: 0 auto;
+#frm-login{ width: 440px; 
+		padding-left: 3em;
+		background: #f4f4f4; 
+		color: #494d59; 
+		height: 12em;
+		margin: 0 auto; 
+		padding-top: 1em; 
+		border-radius: 2px; 
+		text-align: center;
 	}
-.frm-space{ margin-top: 0.5em; margin-bottom: 0.5em;}
+
+.frm-space{ margin-top: 0.5em; margin-bottom: 0.5em; }
+
 .menu{ color: white;
   		color: rgba(255, 255, 255, 0.95);
-	text-decoration: none;
+		text-decoration: none;
+		width: 500px;	
+		margin: 0 auto;
+		text-align: center;
+		border: 2px solid;
  }
 
- .menu-op{
-	display: inline-block;
+.lmenu{ text-decoration: none; color: white;}
+.menu-op{ 	display: inline-block;  
+			width: 7.5em; 
+			padding-top: .3em; 
+			padding-bottom: 0.3em;}
+			
+#showt,#create{ display: none;}
 
- }
-
+#panel{ background: #f4f4f4;}
 
 header{
 	margin: 0 auto;
