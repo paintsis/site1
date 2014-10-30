@@ -2,16 +2,16 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	background: #2d4259;
-	color: #404040;
+	/*color: #404040;*/
 	font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #banner{
 	margin: 0 auto;
-	padding-top: 0.5rem;
+	padding-top: 0.4em;
 	text-align: center;
 	color: white;
-  	color: rgba(255, 255, 255, 0.95);
+	/*color: rgba(255, 255, 255, 0.95);*/
 }
 
 #frm-login{ width: 440px; padding-left: 3em;background: #f4f4f4; color: #494d59; height: 12em;

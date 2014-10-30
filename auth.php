@@ -1,15 +1,16 @@
 <?php
 	include "config.php";
-	if(isset($_POST['pwd'], $_POST['user']))
+	if(isset($_POST['user']) and isset($_POST['pwd']) )
 	{
-		
-		echo "error";
-	}
-	else {
-		echo $dbname;
-		echo "campos";
+		if(empty($_POST['user']) or empty($_POST['pwd'])){
+				echo "campos vacios";
 
-	}
+		} else{
 
+			echo $_POST['user'];	
+			echo $_POST['pwd'];	
+		}
+
+	}	
 
 	?>
