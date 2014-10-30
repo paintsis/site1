@@ -1,0 +1,58 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	background: #2d4259;
+	color: #404040;
+	font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#banner{
+	margin: 0 auto;
+	padding-top: 0.5rem;
+	text-align: center;
+	color: white;
+  	color: rgba(255, 255, 255, 0.95);
+}
+
+#frm-login{ width: 440px; padding-left: 3em;background: #f4f4f4; color: #494d59; height: 12em;
+		margin: 0 auto;
+	}
+.frm-space{ margin-top: 0.5em; margin-bottom: 0.5em;}
+.menu{ color: white;
+  		color: rgba(255, 255, 255, 0.95);
+	text-decoration: none;
+ }
+
+ .menu-op{
+	display: inline-block;
+
+ }
+
+
+header{
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	height: 3em;
+}
+
+section{
+	width: 460px;
+	margin: 0 auto;
+	padding-top: 2em;
+	
+}
+
+#button{
+	display: block;
+  width: 50%;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 0.4em;
+  font-size: 16px;
+  font-weight: bold;
+  color: #494d59;
+  text-align: center;
+  color: #494d59;
+  border-radius: 2px;
+}
